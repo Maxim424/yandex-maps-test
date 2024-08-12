@@ -9,7 +9,7 @@ import SwiftUI
 import YandexMapsMobile
 
 class AppDelegate: NSObject, UIApplicationDelegate {
-    let apiKey = "" // укажите ваш api key
+    let apiKey = "d67cbfc8-2364-4890-a8c7-fe1268a02555"
     
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey : Any]? = nil) -> Bool {
         YMKMapKit.setApiKey(apiKey)

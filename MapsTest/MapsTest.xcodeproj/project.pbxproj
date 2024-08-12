@@ -20,6 +20,7 @@
 		4FCA0ACF2C6158BA00000DE1 /* MapsTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FCA0ACE2C6158BA00000DE1 /* MapsTestUITests.swift */; };
 		4FCA0AD12C6158BA00000DE1 /* MapsTestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FCA0AD02C6158BA00000DE1 /* MapsTestUITestsLaunchTests.swift */; };
 		4FD6774B2C6A827D004766A6 /* UIKitPin in Frameworks */ = {isa = PBXBuildFile; productRef = 4FD6774A2C6A827D004766A6 /* UIKitPin */; };
+		4FD6774E2C6A9DEE004766A6 /* BottomSheetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD6774D2C6A9DEE004766A6 /* BottomSheetViewController.swift */; };
 		5F8FFE865FE79D8E3FBDBF85 /* Pods_MapsTestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 065C6EEA34F2C39159FFCCF1 /* Pods_MapsTestTests.framework */; };
 		8C5090FB9D2C812E7502B1BD /* Pods_MapsTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE6BB01904FBC2692C6E63FC /* Pods_MapsTest.framework */; };
 /* End PBXBuildFile section */
@@ -59,6 +60,7 @@
 		4FCA0ACA2C6158BA00000DE1 /* MapsTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MapsTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FCA0ACE2C6158BA00000DE1 /* MapsTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapsTestUITests.swift; sourceTree = "<group>"; };
 		4FCA0AD02C6158BA00000DE1 /* MapsTestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapsTestUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4FD6774D2C6A9DEE004766A6 /* BottomSheetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomSheetViewController.swift; sourceTree = "<group>"; };
 		A04111F33ED21D3EA76C91E9 /* Pods-MapsTest-MapsTestUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MapsTest-MapsTestUITests.debug.xcconfig"; path = "Target Support Files/Pods-MapsTest-MapsTestUITests/Pods-MapsTest-MapsTestUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		CE6BB01904FBC2692C6E63FC /* Pods_MapsTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MapsTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D74FC75B1581E89A45FEF637 /* Pods-MapsTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MapsTest.debug.xcconfig"; path = "Target Support Files/Pods-MapsTest/Pods-MapsTest.debug.xcconfig"; sourceTree = "<group>"; };
@@ -143,6 +145,7 @@
 		4FCA0AB22C6158B900000DE1 /* MapsTest */ = {
 			isa = PBXGroup;
 			children = (
+				4FD6774C2C6A9DCB004766A6 /* BottomSheet */,
 				4F04C7E72C69162F009DEB55 /* Details */,
 				4F6328AB2C615B070019283F /* MapManager.swift */,
 				4F6328A92C615AE60019283F /* YandexMapView.swift */,
@@ -177,6 +180,14 @@
 				4FCA0AD02C6158BA00000DE1 /* MapsTestUITestsLaunchTests.swift */,
 			);
 			path = MapsTestUITests;
+			sourceTree = "<group>";
+		};
+		4FD6774C2C6A9DCB004766A6 /* BottomSheet */ = {
+			isa = PBXGroup;
+			children = (
+				4FD6774D2C6A9DEE004766A6 /* BottomSheetViewController.swift */,
+			);
+			path = BottomSheet;
 			sourceTree = "<group>";
 		};
 		87DC6BE7BAFB29DA6E902786 /* Frameworks */ = {
@@ -434,6 +445,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4F6328AC2C615B070019283F /* MapManager.swift in Sources */,
+				4FD6774E2C6A9DEE004766A6 /* BottomSheetViewController.swift in Sources */,
 				4FCA0AB62C6158B900000DE1 /* ContentView.swift in Sources */,
 				4FCA0AB42C6158B900000DE1 /* MapsTestApp.swift in Sources */,
 				4F6328AA2C615AE60019283F /* YandexMapView.swift in Sources */,

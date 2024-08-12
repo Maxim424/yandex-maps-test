@@ -1,0 +1,15 @@
+{
+  "originHash" : "dab3217734009df69a44d87539b48600e96e6c5574d6764ddaaf1c40d8ddaa72",
+  "pins" : [
+    {
+      "identity" : "uikitpin",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Maxim424/UIKitPin.git",
+      "state" : {
+        "revision" : "0b4dde0f9e009a95475838ebcec99224f42126d7",
+        "version" : "0.0.9"
+      }
+    }
+  ],
+  "version" : 3
+}

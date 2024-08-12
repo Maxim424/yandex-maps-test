@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		0CEE5AF07FE5879C124277E5 /* Pods_MapsTest_MapsTestUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 219B2A22202842C5B1998A8D /* Pods_MapsTest_MapsTestUITests.framework */; };
+		4F04C7E92C691644009DEB55 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F04C7E82C691644009DEB55 /* DetailsViewController.swift */; };
+		4F04C7EB2C691697009DEB55 /* DetailsViewControllerRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F04C7EA2C691697009DEB55 /* DetailsViewControllerRepresentable.swift */; };
 		4F6328AA2C615AE60019283F /* YandexMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F6328A92C615AE60019283F /* YandexMapView.swift */; };
 		4F6328AC2C615B070019283F /* MapManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F6328AB2C615B070019283F /* MapManager.swift */; };
 		4FCA0AB42C6158B900000DE1 /* MapsTestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FCA0AB32C6158B900000DE1 /* MapsTestApp.swift */; };
@@ -17,6 +19,7 @@
 		4FCA0AC52C6158BA00000DE1 /* MapsTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FCA0AC42C6158BA00000DE1 /* MapsTestTests.swift */; };
 		4FCA0ACF2C6158BA00000DE1 /* MapsTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FCA0ACE2C6158BA00000DE1 /* MapsTestUITests.swift */; };
 		4FCA0AD12C6158BA00000DE1 /* MapsTestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FCA0AD02C6158BA00000DE1 /* MapsTestUITestsLaunchTests.swift */; };
+		4FD6774B2C6A827D004766A6 /* UIKitPin in Frameworks */ = {isa = PBXBuildFile; productRef = 4FD6774A2C6A827D004766A6 /* UIKitPin */; };
 		5F8FFE865FE79D8E3FBDBF85 /* Pods_MapsTestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 065C6EEA34F2C39159FFCCF1 /* Pods_MapsTestTests.framework */; };
 		8C5090FB9D2C812E7502B1BD /* Pods_MapsTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE6BB01904FBC2692C6E63FC /* Pods_MapsTest.framework */; };
 /* End PBXBuildFile section */
@@ -42,6 +45,8 @@
 		065C6EEA34F2C39159FFCCF1 /* Pods_MapsTestTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MapsTestTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		219B2A22202842C5B1998A8D /* Pods_MapsTest_MapsTestUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MapsTest_MapsTestUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2216465241E531EDA45B4FF9 /* Pods-MapsTest-MapsTestUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MapsTest-MapsTestUITests.release.xcconfig"; path = "Target Support Files/Pods-MapsTest-MapsTestUITests/Pods-MapsTest-MapsTestUITests.release.xcconfig"; sourceTree = "<group>"; };
+		4F04C7E82C691644009DEB55 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		4F04C7EA2C691697009DEB55 /* DetailsViewControllerRepresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewControllerRepresentable.swift; sourceTree = "<group>"; };
 		4F6328A92C615AE60019283F /* YandexMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YandexMapView.swift; sourceTree = "<group>"; };
 		4F6328AB2C615B070019283F /* MapManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapManager.swift; sourceTree = "<group>"; };
 		4FCA0AB02C6158B900000DE1 /* MapsTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MapsTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -68,6 +73,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8C5090FB9D2C812E7502B1BD /* Pods_MapsTest.framework in Frameworks */,
+				4FD6774B2C6A827D004766A6 /* UIKitPin in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -103,6 +109,15 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		4F04C7E72C69162F009DEB55 /* Details */ = {
+			isa = PBXGroup;
+			children = (
+				4F04C7E82C691644009DEB55 /* DetailsViewController.swift */,
+				4F04C7EA2C691697009DEB55 /* DetailsViewControllerRepresentable.swift */,
+			);
+			path = Details;
+			sourceTree = "<group>";
+		};
 		4FCA0AA72C6158B900000DE1 = {
 			isa = PBXGroup;
 			children = (
@@ -128,6 +143,7 @@
 		4FCA0AB22C6158B900000DE1 /* MapsTest */ = {
 			isa = PBXGroup;
 			children = (
+				4F04C7E72C69162F009DEB55 /* Details */,
 				4F6328AB2C615B070019283F /* MapManager.swift */,
 				4F6328A92C615AE60019283F /* YandexMapView.swift */,
 				4FCA0AB52C6158B900000DE1 /* ContentView.swift */,
@@ -191,6 +207,9 @@
 			dependencies = (
 			);
 			name = MapsTest;
+			packageProductDependencies = (
+				4FD6774A2C6A827D004766A6 /* UIKitPin */,
+			);
 			productName = MapsTest;
 			productReference = 4FCA0AB02C6158B900000DE1 /* MapsTest.app */;
 			productType = "com.apple.product-type.application";
@@ -266,6 +285,9 @@
 				Base,
 			);
 			mainGroup = 4FCA0AA72C6158B900000DE1;
+			packageReferences = (
+				4FD677492C6A827D004766A6 /* XCRemoteSwiftPackageReference "UIKitPin" */,
+			);
 			productRefGroup = 4FCA0AB12C6158B900000DE1 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -415,6 +437,8 @@
 				4FCA0AB62C6158B900000DE1 /* ContentView.swift in Sources */,
 				4FCA0AB42C6158B900000DE1 /* MapsTestApp.swift in Sources */,
 				4F6328AA2C615AE60019283F /* YandexMapView.swift in Sources */,
+				4F04C7EB2C691697009DEB55 /* DetailsViewControllerRepresentable.swift in Sources */,
+				4F04C7E92C691644009DEB55 /* DetailsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -758,6 +782,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		4FD677492C6A827D004766A6 /* XCRemoteSwiftPackageReference "UIKitPin" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Maxim424/UIKitPin.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.0.9;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		4FD6774A2C6A827D004766A6 /* UIKitPin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4FD677492C6A827D004766A6 /* XCRemoteSwiftPackageReference "UIKitPin" */;
+			productName = UIKitPin;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 4FCA0AA82C6158B900000DE1 /* Project object */;
 }

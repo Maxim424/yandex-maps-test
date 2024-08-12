@@ -24,7 +24,8 @@ struct MapsTestApp: App {
     
     var body: some Scene {
         WindowGroup {
-            ContentView(mapsType: .yandex) // укажите какую карту хотите использовать.
+            DetailsView()
+                .ignoresSafeArea(.all)
         }
     }
 }
